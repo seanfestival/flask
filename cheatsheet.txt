@@ -1,0 +1,28 @@
+## Workflow:
+
+1. Create and then activate a virtualenv (virtualenv venv (source venv/bin/activate))
+2. Install any dependencies with pip (pip install flask etc)
+3. Add those depedencies to your requirements
+4. Create a local repo (git init)
+5. Create a reop on git hub (with the same name as the local directory on your computer)
+6. Take snap shots of your project (git add -A)
+7. Add that snapshot to your local repo (git commit -am "message")
+9. Push it up to github (git push origin master)
+
+## Normal dev, after setup:
+1. Activate your virtualenv (source venv/bin/activate)
+2. Coding!
+3. Take a snapshot at a stopping point
+4. Add the snapshot to your local repo
+5. push to github
+6. deactivate your virtualenv (deactivate)
+
+Quick Ref
+Virtualenv
+activate: source venv/bin/activate
+deactivate: deactivate
+
+git 
+snap: git add -A
+staging: git commit -am "message"
+push: git push origin master
